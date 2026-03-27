@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Dockerfile linguist-detectable=true
+*.sh linguist-detectable=true
+*.hql linguist-detectable=true
+*.pig linguist-detectable=true
