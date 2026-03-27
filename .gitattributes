@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+docker-compose.yml linguist-detectable=true
 Dockerfile linguist-detectable=true
 *.sh linguist-detectable=true
 *.hql linguist-detectable=true
