@@ -5,3 +5,4 @@ Dockerfile linguist-detectable=true
 *.sh linguist-detectable=true
 *.hql linguist-detectable=true
 *.pig linguist-detectable=true
+*.ps1 linguist-detectable=true
