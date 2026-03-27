@@ -1,0 +1,2 @@
+[wsl2]
+memory=4GB   # Limita o uso total a 4GB
