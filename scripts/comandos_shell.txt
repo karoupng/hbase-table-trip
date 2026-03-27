@@ -1,0 +1,20 @@
+# Criei minha tabela com sua família de colunas 
+
+create 'log_viagens', 'rota', 'status', 'tarifa'
+
+#O passageiro usr20 solicita a viagem trip10
+put 'log_viagens', 'usr20_trip10_01', 'rota:origem', 'Rua Moreira Cesar, Icarai'
+put 'log_viagens', 'usr20_trip10_01', 'rota:destino', 'Praca XV de Novembro, Centro RJ'
+put 'log_viagens', 'usr20_trip10_01', 'status:evento', 'Solicitada'
+put 'log_viagens', 'usr20_trip10_01', 'tarifa:estimativa', 'R$45,00'
+
+# O motorista aceita 
+put 'log_viagens', 'usr20_trip10_02', 'status:evento', 'Motorista a Caminho'
+put 'log_viagens', 'usr20_trip10_02', 'status:id_motorista', 'mot_556'
+put 'log_viagens', 'usr20_trip10_02', 'status:carro', 'Chevrolet Onix'
+
+# Chegada ao destino
+put 'log_viagens', 'usr20_trip10_03', 'status:evento', 'Viagem Concluida'
+put 'log_viagens', 'usr20_trip10_03', 'tarifa:pagamento', 'Cartao de Credito'
+put 'log_viagens', 'usr88_trip12_03', 'tarifa:valor_final', 'R$48,50'
+

@@ -1,2 +1,2 @@
 [wsl2]
-memory=4GB   # Limita o uso total a 4GB
+memory=4GB   # Limita o uso total a 4GB, coloque dentro de C:\Users\Seu_User para que o windows reconheça
